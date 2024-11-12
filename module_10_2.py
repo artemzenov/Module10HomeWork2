@@ -24,7 +24,7 @@ class Knight(Thread):
             
             count_day += 1
             
-            if self.enemy > 0:
+            if self.enemy >= 0:
                 print(f'{self.name} сражается {count_day}..., ' 
                       f'осталось {self.enemy} воинов')
             else:
